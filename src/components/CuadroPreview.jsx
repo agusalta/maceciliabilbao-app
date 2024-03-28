@@ -17,7 +17,7 @@ function CuadroPreview({ cuadro, onClose }) {
         <strong>Medidas:</strong> {cuadro.medidas}
       </p>
       <p>
-        <strong>Precio:</strong> ${cuadro.precio}
+        <strong>Precio:</strong> {cuadro.precio}
       </p>
       <button className="agregar-al-carrito">Agregar al carrito</button>
       <button className="cerrar-modal" onClick={onClose}>
