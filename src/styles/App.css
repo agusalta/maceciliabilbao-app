@@ -1,38 +1,248 @@
-.App {
-  text-align: center;
+/* Reset de estilos para eliminar márgenes y paddings por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Josefin Sans", serif;
+  background-color: whitesmoke;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.carrito-container {
+  position: relative;
+  display: inline-block;
+}
+
+.cantidad-productos {
+  position: absolute;
+  top: 11px;
+  right: 20px;
+  color: black;
+  padding: 1px;
+  font-size: 11px;
+}
+
+#inicio {
+  overflow: hidden;
+}
+
+.video-container {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.video {
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.titulo {
+  text-align: center;
+  font-size: calc(2vw + 14px);
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.subtitulo {
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+#redes {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: auto;
+}
+
+.icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  margin-right: 5px;
+  transition: transform 0.3s ease, backdrop-filter 0.3s ease;
+  border-radius: 30%;
+}
+
+.icon:hover {
+  filter: invert(50%);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  position: static;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem;
+  color: #444;
+}
+
+/* Estilos específicos */
+#galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+.galeria-container {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  text-align: center;
+  width: 60%;
+}
+
+.cuadro-container {
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+}
+
+.cuadro {
+  margin-bottom: 1rem;
+  max-width: 300px !important;
+  height: 300px !important;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Media queries */
+
+@media (max-width: 1485px) {
+  .galeria-container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .cuadro {
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .video {
+    width: 80%;
+    height: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 1rem 2rem 1rem 2rem;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 1130px) {
+  /* Por el momento quitamos el carrito en vista mobile*/
+  .carrito-container {
+    display: none;
+    position: fixed;
+    top: 1.5rem;
+    right: 1rem;
+    z-index: 1000;
+  }
+
+  #redes {
+    position: static;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .galeria-container {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .cuadro {
+    width: max-content;
+    height: max-content;
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  #titulo {
+    font-size: 20px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
