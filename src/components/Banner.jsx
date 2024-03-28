@@ -7,6 +7,7 @@ function Banner() {
       <div className="video-container">
         <video
           className="video"
+          autoPlay={true}
           playing={true}
           loop={true}
           controls={false}

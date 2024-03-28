@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Calor",
+    "descripcion": "Descripción breve del cuadro.",
+    "imagen": "calor.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "El Giro",
+    "descripcion": "Descripción breve del cuadro.",
+    "imagen": "el giro.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "El Origen",
+    "descripcion": "Descripción breve del cuadro.",
+    "imagen": "el origen.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Intersección",
+    "descripcion": "Descripción breve del cuadro.",
+    "imagen": "interseccion.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Oleada",
+    "descripcion": "Descripción breve del cuadro.",
+    "imagen": "oleada.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Splash",
+    "descripcion": "Descripción breve del cuadro.",
+    "imagen": "splash.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Floreciendo",
+    "descripcion": "Descripción breve del cuadro.",
+    "imagen": "floreciendo.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Turbulencia",
+    "descripcion": "Descripción breve del cuadro.",
+    "imagen": "turbulencia.jpg"
+  }
+]
