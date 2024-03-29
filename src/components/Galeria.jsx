@@ -3,7 +3,7 @@ import Cuadro from "./Cuadro";
 import Banner from "./Banner";
 import cuadrosData from "../cuadros.json";
 import CuadroPreview from "./CuadroPreview";
-import "../styles/galeria.css";
+import "../styles/Preview.css";
 
 function Galeria() {
   const [showPreview, setShowPreview] = useState(false);
@@ -26,14 +26,19 @@ function Galeria() {
       <section className="galeria-container">
         {cuadrosData && cuadrosData.length > 0 ? (
           cuadrosData.map(cuadro => (
-            <Cuadro
-              key={cuadro.id}
-              nombre={cuadro.nombre}
-              descripcion={cuadro.descripcion}
-              imagen={require("../img/" + cuadro.imagen)}
-              data-name={cuadro.nombre}
-              onClick={() => handleCuadroClick(cuadro)}
-            />
+            <div key={cuadro.id} className="cuadro-container">
+              <Cuadro
+                nombre={cuadro.nombre}
+                descripcion={cuadro.descripcion}
+                imagen={require("../img/" + cuadro.imagen)}
+                data-name={cuadro.nombre}
+                onClick={() => handleCuadroClick(cuadro)}
+              />
+              {cuadro.nuevo && <span className="etiqueta-nuevo">Nuevo</span>}
+              {!cuadro.disponible && (
+                <span className="etiqueta-no-disponible">No disponible</span>
+              )}
+            </div>
           ))
         ) : (
           <p>No hay cuadros disponibles</p>

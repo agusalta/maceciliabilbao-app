@@ -143,6 +143,22 @@ footer {
   flex-direction: column;
 }
 
+.etiqueta-nuevo {
+  background-color: #f2aec0;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.etiqueta-no-disponible {
+  background-color: #444;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
 .galeria-container {
   display: grid;
   grid-template-columns: repeat(3, 2fr);

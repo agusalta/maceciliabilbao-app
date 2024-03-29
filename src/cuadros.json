@@ -5,7 +5,9 @@
     "descripcion": "Pintura al óleo que representa la intensidad del sol en un paisaje desértico.",
     "imagen": "calor.jpg",
     "medidas": "100x100",
-    "precio": "$120"
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": true
   },
   {
     "id": 2,
@@ -13,7 +15,9 @@
     "descripcion": "Cuadro abstracto que simboliza el movimiento y la transformación constante.",
     "imagen": "el giro.jpg",
     "medidas": "100x100",
-    "precio": "$120"
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": true
   },
   {
     "id": 3,
@@ -21,7 +25,9 @@
     "descripcion": "Obra que reflexiona sobre el comienzo de todo, explorando la dualidad del origen y el fin.",
     "imagen": "el origen.jpg",
     "medidas": "100x100",
-    "precio": "$120"
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": true
   },
   {
     "id": 4,
@@ -29,7 +35,9 @@
     "descripcion": "Representación pictórica de la convergencia de caminos y decisiones en la vida.",
     "imagen": "interseccion.jpg",
     "medidas": "100x100",
-    "precio": "$120"
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": true
   },
   {
     "id": 5,
@@ -37,7 +45,9 @@
     "descripcion": "Cuadro que captura la energía y el movimiento de las olas del mar en un día tempestuoso.",
     "imagen": "oleada.png",
     "medidas": "100x100",
-    "precio": "$120"
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": true
   },
   {
     "id": 6,
@@ -45,7 +55,9 @@
     "descripcion": "Expresión artística de la sensación de frescura y vitalidad al caer en el agua.",
     "imagen": "splash.jpg",
     "medidas": "100x100",
-    "precio": "$120"
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": true
   },
   {
     "id": 7,
@@ -53,7 +65,9 @@
     "descripcion": "Cuadro que simboliza el renacimiento y el florecimiento de la naturaleza en primavera.",
     "imagen": "floreciendo.jpg",
     "medidas": "100x100",
-    "precio": "$120"
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": true
   },
   {
     "id": 8,
@@ -61,6 +75,28 @@
     "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
     "imagen": "turbulencia.jpg",
     "medidas": "100x100",
-    "precio": "$120"
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": true
+  },
+  {
+    "id": 9,
+    "nombre": "Garabato",
+    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
+    "imagen": "garabato.png",
+    "medidas": "100x100",
+    "precio": "$120",
+    "nuevo": true,
+    "disponible": true
+  },
+  {
+    "id": 10,
+    "nombre": "Amarillo",
+    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
+    "imagen": "amarillo.png",
+    "medidas": "100x100",
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": false
   }
 ]
