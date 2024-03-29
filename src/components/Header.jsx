@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Carrito48 from "../img/icons8-carrito-de-compras-48.png";
-import MCB from "../img/MCB.png";
+import MB from "../img/MB.png";
 
 function Header() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -20,9 +20,9 @@ function Header() {
   return (
     <header>
       {isMobile ? (
-        <img className="logo-img" alt="" src={MCB} />
+        <img className="logo-img" alt="" src={MB} />
       ) : (
-        <p className="titulo">Maria Cecilia Bilbao.</p>
+        <p className="titulo">Maria Bilbao.</p>
       )}
       <div className="carrito-container">
         <a href="/carrito" className="carrito">

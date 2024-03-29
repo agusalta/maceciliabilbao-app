@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Video1 from "../assets/videos/NuevosIngresos.mp4";
+import Video1 from "../assets/videos/Nuevos.mp4";
 import Video2 from "../assets/videos/Banner.mp4";
 
 function Banner() {
