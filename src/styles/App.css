@@ -26,7 +26,7 @@ header {
 
 .logo-img {
   width: 70%;
-  max-width: 300px;
+  max-width: 500px;
   height: auto;
 }
 
@@ -80,8 +80,10 @@ header {
 }
 
 .subtitulo {
+  font-size: calc(1vw + 14px);
   text-transform: uppercase;
-  padding: 3rem;
+  padding: 2rem;
+  font-weight: bold;
 }
 
 h3 {

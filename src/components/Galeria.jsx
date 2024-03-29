@@ -22,7 +22,7 @@ function Galeria() {
   return (
     <div id="galeria">
       <Banner />
-      <h2 className="subtitulo">Nuestra Galería</h2>
+      <p className="subtitulo">Nuestra Galería</p>
       <section className="galeria-container">
         {cuadrosData && cuadrosData.length > 0 ? (
           cuadrosData.map(cuadro => (
