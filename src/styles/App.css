@@ -81,7 +81,7 @@ header {
 
 .subtitulo {
   text-transform: uppercase;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 h3 {
@@ -216,6 +216,10 @@ button:hover {
 
 @media (max-width: 1130px) {
   /* Por el momento quitamos el carrito en vista mobile*/
+  #inicio {
+    display: none;
+  }
+
   .carrito-container {
     display: none;
     position: fixed;
