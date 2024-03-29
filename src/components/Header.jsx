@@ -1,12 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Carrito48 from "../img/icons8-carrito-de-compras-48.png";
+import MCB from "../img/MCB.png";
 
 function Header() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <header>
-      <p className="titulo">Maria Cecilia Bilbao.</p>
+      {isMobile ? (
+        <img className="logo-img" alt="" src={MCB} />
+      ) : (
+        <p className="titulo">Maria Cecilia Bilbao.</p>
+      )}
       <div className="carrito-container">
-        <a className="carrito" href="carrito.html">
+        <a href="/carrito" className="carrito">
           <img
             src={Carrito48}
             alt="carrito de compras"

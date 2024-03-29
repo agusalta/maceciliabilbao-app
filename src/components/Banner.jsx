@@ -1,19 +1,26 @@
-import React from "react";
-import Video from "../assets/Banner.mp4";
+import React, { useState } from "react";
+import Video1 from "../assets/videos/NuevosIngresos.mp4";
+import Video2 from "../assets/videos/Banner.mp4";
 
 function Banner() {
+  const [currentVideo, setCurrentVideo] = useState(Video1);
+
+  const handleVideoChange = () => {
+    setCurrentVideo(Video2);
+  };
+
   return (
     <section id="inicio">
       <div className="video-container">
         <video
           className="video"
           autoPlay={true}
-          playing={true}
           loop={true}
           controls={false}
           muted={true}
+          onEnded={handleVideoChange}
         >
-          <source src={Video} type="video/mp4" />
+          <source src={currentVideo} type="video/mp4" />
           Tu navegador no admite videos HTML5.
         </video>
       </div>

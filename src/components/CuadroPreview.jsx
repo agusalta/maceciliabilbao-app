@@ -5,6 +5,14 @@ function CuadroPreview({ cuadro, onClose }) {
     return <span>Error: Información del cuadro no disponible.</span>;
   }
 
+  function handleRedireccion() {
+    window.open(
+      "https://www.instagram.com/ma.ceciliabilbao/",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  }
+
   return (
     <div className="preview" data-target={cuadro.id}>
       <img
@@ -19,7 +27,9 @@ function CuadroPreview({ cuadro, onClose }) {
       <p>
         <strong>Precio:</strong> {cuadro.precio}
       </p>
-      <button className="agregar-al-carrito">Agregar al carrito</button>
+      <button className="agregar-al-carrito" onClick={handleRedireccion}>
+        Mas información
+      </button>
       <button className="cerrar-modal" onClick={onClose}>
         X
       </button>
