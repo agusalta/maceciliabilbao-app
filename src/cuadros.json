@@ -98,5 +98,15 @@
     "precio": "$120",
     "nuevo": false,
     "disponible": false
+  },
+  {
+    "id": 11,
+    "nombre": "Efímero",
+    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
+    "imagen": "efimero.png",
+    "medidas": "80x120",
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": false
   }
 ]
