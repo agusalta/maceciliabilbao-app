@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "nombre": "Calor",
+    "nombre": "Calor de Hogar",
     "descripcion": "Pintura al óleo que representa la intensidad del sol en un paisaje desértico.",
     "imagen": "calor.jpg",
     "medidas": "100x100",
@@ -95,7 +95,6 @@
     "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
     "imagen": "amarillo.png",
     "medidas": "100x100",
-    "precio": "$120",
     "nuevo": false,
     "disponible": false
   },
@@ -105,8 +104,36 @@
     "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
     "imagen": "efimero.png",
     "medidas": "80x120",
-    "precio": "$120",
     "nuevo": false,
     "disponible": false
+  },
+  {
+    "id": 12,
+    "nombre": "Claro",
+    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
+    "imagen": "claro.png",
+    "medidas": "90x80",
+    "nuevo": false,
+    "disponible": false
+  },
+  {
+    "id": 13,
+    "nombre": "Redes",
+    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
+    "imagen": "redes.png",
+    "medidas": "100x100",
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": true
+  },
+  {
+    "id": 14,
+    "nombre": "Microredes",
+    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
+    "imagen": "microredes.png",
+    "medidas": "80x1,20",
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": true
   }
 ]
