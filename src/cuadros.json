@@ -135,5 +135,15 @@
     "precio": "$120",
     "nuevo": false,
     "disponible": true
+  },
+  {
+    "id": 15,
+    "nombre": "Mar del Plata",
+    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
+    "imagen": "mardelplata.png",
+    "medidas": "70x1,20",
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": true
   }
 ]
