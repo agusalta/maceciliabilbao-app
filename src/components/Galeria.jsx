@@ -4,7 +4,7 @@ import Banner from "./Banner";
 import cuadrosData from "../cuadros.json";
 import CuadroPreview from "./CuadroPreview";
 import "../styles/Preview.css";
- 
+
 function Galeria() {
   const [showPreview, setShowPreview] = useState(false);
   const [selectedCuadro, setSelectedCuadro] = useState(null);
@@ -22,7 +22,7 @@ function Galeria() {
   return (
     <div id="galeria">
       <Banner />
-      <p className="subtitulo">Nuestra Galería</p>
+
       <section className="galeria-container">
         {cuadrosData && cuadrosData.length > 0 ? (
           cuadrosData.map(cuadro => (

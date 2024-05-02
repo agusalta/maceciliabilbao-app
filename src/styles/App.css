@@ -73,10 +73,11 @@ header {
 
 .titulo {
   text-align: center;
-  font-size: calc(2vw + 14px);
+  font-size: 52px;
   font-weight: bolder;
-  text-transform: uppercase;
-  padding: 1em;
+  letter-spacing: 5.3rem;
+  padding: 2rem;
+  padding-left: 8.5rem;
 }
 
 .subtitulo {

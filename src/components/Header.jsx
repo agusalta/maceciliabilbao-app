@@ -22,9 +22,9 @@ function Header() {
       {isMobile ? (
         <img className="logo-img" alt="" src={MB} />
       ) : (
-        <p className="titulo">Maria Bilbao.</p>
+        <p className="titulo">Maria Bilbao</p>
       )}
-      <div className="carrito-container">
+      {/* <div className="carrito-container">
         <a href="/carrito" className="carrito">
           <img
             src={Carrito48}
@@ -35,7 +35,7 @@ function Header() {
             <strong>0</strong>
           </span>
         </a>
-      </div>
+      </div> */}
     </header>
   );
 }
