@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nombre": "Garabato",
-    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
+    "descripcion": "Reflejo de agitación emocional",
     "imagen": "garabato.png",
     "medidas": "100x100",
     "precio": "$120",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "nombre": "Calor de Hogar",
-    "descripcion": "Pintura al óleo que representa la intensidad del sol en un paisaje desértico.",
+    "descripcion": "Intensidad del sol en paisaje desértico",
     "imagen": "calor.jpg",
     "medidas": "100x100",
     "precio": "$120",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "nombre": "El Giro",
-    "descripcion": "Cuadro abstracto que simboliza el movimiento y la transformación constante.",
+    "descripcion": "Simboliza movimiento constante",
     "imagen": "el giro.jpg",
     "medidas": "100x100",
     "precio": "$120",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "nombre": "El Origen",
-    "descripcion": "Obra que reflexiona sobre el comienzo de todo, explorando la dualidad del origen y el fin.",
+    "descripcion": "Reflexión sobre el comienzo",
     "imagen": "el origen.jpg",
     "medidas": "100x100",
     "precio": "$120",
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "nombre": "Intersección",
-    "descripcion": "Representación pictórica de la convergencia de caminos y decisiones en la vida.",
+    "descripcion": "Convergencia de caminos",
     "imagen": "interseccion.jpg",
     "medidas": "100x100",
     "precio": "$120",
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "nombre": "Oleada",
-    "descripcion": "Cuadro que captura la energía y el movimiento de las olas del mar en un día tempestuoso.",
+    "descripcion": "Energía de olas del mar",
     "imagen": "oleada.png",
     "medidas": "100x100",
     "precio": "$120",
@@ -62,7 +62,7 @@
   {
     "id": 7,
     "nombre": "Splash",
-    "descripcion": "Expresión artística de la sensación de frescura y vitalidad al caer en el agua.",
+    "descripcion": "Sensación de frescura al caer en agua",
     "imagen": "splash.jpg",
     "medidas": "100x100",
     "precio": "$120",
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "nombre": "Floreciendo",
-    "descripcion": "Cuadro que simboliza el renacimiento y el florecimiento de la naturaleza en primavera.",
+    "descripcion": "Renacimiento en primavera",
     "imagen": "floreciendo.jpg",
     "medidas": "100x100",
     "precio": "$120",
@@ -82,18 +82,17 @@
   {
     "id": 9,
     "nombre": "Turbulencia",
-    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
+    "descripcion": "Reflejo de agitación emocional",
     "imagen": "turbulencia.jpg",
     "medidas": "100x100",
     "precio": "$120",
     "nuevo": false,
     "disponible": true
   },
-
   {
     "id": 10,
     "nombre": "Redes",
-    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
+    "descripcion": "Reflejo de agitación emocional",
     "imagen": "redes.png",
     "medidas": "100x100",
     "precio": "$120",
@@ -101,29 +100,9 @@
     "disponible": true
   },
   {
-    "id": 11,
-    "nombre": "Microredes",
-    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
-    "imagen": "microredes.png",
-    "medidas": "80x1,20",
-    "precio": "$120",
-    "nuevo": false,
-    "disponible": true
-  },
-  {
-    "id": 12,
-    "nombre": "Mar del Plata",
-    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
-    "imagen": "mardelplata.png",
-    "medidas": "70x1,20",
-    "precio": "$120",
-    "nuevo": false,
-    "disponible": true
-  },
-  {
     "id": 13,
     "nombre": "Amarillo",
-    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
+    "descripcion": "Reflejo de agitación emocional",
     "imagen": "amarillo.png",
     "medidas": "100x100",
     "nuevo": false,
@@ -131,20 +110,37 @@
   },
   {
     "id": 14,
-    "nombre": "Efímero",
-    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
-    "imagen": "efimero.png",
-    "medidas": "80x120",
+    "nombre": "Claro",
+    "descripcion": "Descripción no disponible",
+    "imagen": "claro.png",
+    "medidas": "90x80",
     "nuevo": false,
     "disponible": false
   },
   {
     "id": 15,
-    "nombre": "Claro",
-    "descripcion": "Reflejo visual de la agitación y la turbulencia emocional en un contexto abstracto.",
-    "imagen": "claro.png",
+    "nombre": "Microredes",
+    "descripcion": "Descripción no disponible",
+    "imagen": "microredes.png",
     "medidas": "90x80",
     "nuevo": false,
-    "disponible": false
+    "disponible": true
+  },
+  {
+    "id": 16,
+    "nombre": "Rutas",
+    "descripcion": "Descripción no disponible",
+    "imagen": "rutas.png",
+    "medidas": "90x80",
+    "nuevo": false,
+    "disponible": true
+  },
+  {
+    "id": 17,
+    "nombre": "Mundos",
+    "descripcion": "Descripción no disponible",
+    "imagen": "mundos.png",
+    "nuevo": false,
+    "disponible": true
   }
 ]
