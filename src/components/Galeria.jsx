@@ -35,8 +35,11 @@ function Galeria() {
                 onClick={() => handleCuadroClick(cuadro)}
               />
               {cuadro.nuevo && <span className="etiqueta-nuevo">Nuevo</span>}
+              {cuadro.liquidacion && (
+                <span className="etiqueta-liquidacion">Liquidación</span>
+              )}
               {!cuadro.disponible && (
-                <span className="etiqueta-no-disponible">No disponible</span>
+                <span className="etiqueta-no-disponible">Vendido</span>
               )}
             </div>
           ))
