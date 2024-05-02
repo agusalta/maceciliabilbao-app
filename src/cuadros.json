@@ -10,21 +10,11 @@
     "disponible": true
   },
   {
-    "id": 1,
+    "id": 2,
     "nombre": "Efimero",
     "imagen": "efimero.png",
     "medidas": "80x120",
     "precio": "$140.000",
-    "disponible": false
-  },
-  {
-    "id": 2,
-    "nombre": "Calor de Hogar",
-    "descripcion": "Intensidad del sol en paisaje desértico",
-    "imagen": "calor.jpg",
-    "medidas": "100x100",
-    "precio": "$120",
-    "nuevo": false,
     "disponible": false
   },
   {
@@ -38,7 +28,16 @@
     "disponible": true
   },
   {
-    "id": 4,
+    "id": 18,
+    "nombre": "Migracion",
+    "imagen": "migracion.png",
+    "medidas": "100x100",
+    "precio": "$145.000",
+    "nuevo": false,
+    "disponible": true
+  },
+  {
+    "id": 5,
     "nombre": "El Origen",
     "descripcion": "Reflexión sobre el comienzo",
     "imagen": "el origen.jpg",
@@ -48,7 +47,26 @@
     "disponible": true
   },
   {
-    "id": 5,
+    "id": 4,
+    "nombre": "Calor de Hogar",
+    "descripcion": "Intensidad del sol en paisaje desértico",
+    "imagen": "calor.jpg",
+    "medidas": "100x100",
+    "precio": "$120",
+    "nuevo": false,
+    "disponible": false
+  },
+  {
+    "id": 17,
+    "nombre": "Ultima flor de verano",
+    "imagen": "ultima-flor.png",
+    "medidas": "100x100",
+    "precio": "$145.000",
+    "nuevo": false,
+    "disponible": true
+  },
+  {
+    "id": 6,
     "nombre": "Intersección",
     "descripcion": "Convergencia de caminos",
     "imagen": "interseccion.jpg",
@@ -58,7 +76,7 @@
     "disponible": true
   },
   {
-    "id": 6,
+    "id": 7,
     "nombre": "Oleada",
     "descripcion": "Energía de olas del mar",
     "imagen": "oleada.png",
@@ -68,7 +86,7 @@
     "disponible": false
   },
   {
-    "id": 7,
+    "id": 8,
     "nombre": "Splash",
     "descripcion": "Sensación de frescura al caer en agua",
     "imagen": "splash.jpg",
@@ -78,7 +96,7 @@
     "disponible": true
   },
   {
-    "id": 8,
+    "id": 9,
     "nombre": "Floreciendo",
     "descripcion": "Renacimiento en primavera",
     "imagen": "floreciendo.jpg",
@@ -87,7 +105,7 @@
     "disponible": false
   },
   {
-    "id": 9,
+    "id": 10,
     "nombre": "Turbulencia",
     "descripcion": "Reflejo de agitación emocional",
     "imagen": "turbulencia.jpg",
@@ -97,7 +115,7 @@
     "disponible": true
   },
   {
-    "id": 10,
+    "id": 11,
     "nombre": "Redes",
     "descripcion": "Reflejo de agitación emocional",
     "imagen": "redes.png",
@@ -107,25 +125,7 @@
     "disponible": true
   },
   {
-    "id": 13,
-    "nombre": "Amarillo",
-    "descripcion": "Reflejo de agitación emocional",
-    "imagen": "amarillo.png",
-    "medidas": "100x100",
-    "nuevo": false,
-    "disponible": false
-  },
-  {
     "id": 14,
-    "nombre": "Claro",
-    "descripcion": "Descripción no disponible",
-    "imagen": "claro.png",
-    "medidas": "90x80",
-    "nuevo": false,
-    "disponible": false
-  },
-  {
-    "id": 15,
     "nombre": "Microredes",
     "descripcion": "Descripción no disponible",
     "imagen": "microredes.png",
@@ -136,6 +136,24 @@
   },
   {
     "id": 16,
+    "nombre": "Mundos",
+    "descripcion": "Descripción no disponible",
+    "imagen": "mundos.png",
+    "precio": "$110.000",
+    "nuevo": false,
+    "disponible": true
+  },
+  {
+    "id": 13,
+    "nombre": "Claro",
+    "descripcion": "Descripción no disponible",
+    "imagen": "claro.png",
+    "medidas": "90x80",
+    "nuevo": false,
+    "disponible": false
+  },
+  {
+    "id": 15,
     "nombre": "Rutas",
     "descripcion": "Descripción no disponible",
     "imagen": "rutas.png",
@@ -146,12 +164,12 @@
     "disponible": true
   },
   {
-    "id": 17,
-    "nombre": "Mundos",
-    "descripcion": "Descripción no disponible",
-    "imagen": "mundos.png",
-    "precio": "$110.000",
+    "id": 12,
+    "nombre": "Amarillo",
+    "descripcion": "Reflejo de agitación emocional",
+    "imagen": "amarillo.png",
+    "medidas": "100x100",
     "nuevo": false,
-    "disponible": true
+    "disponible": false
   }
 ]
