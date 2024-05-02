@@ -26,10 +26,15 @@
 }
 
 .cuadros-preview .preview img {
-  width: 30rem;
   border-radius: 8px 8px 0 0;
 }
 
+.cuadros-preview .preview h3 {
+  width: 20rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .cuadros-preview .preview .cerrar-modal {
   position: absolute;
   top: 1rem;
