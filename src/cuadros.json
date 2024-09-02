@@ -5,7 +5,7 @@
     "descripcion": "Reflejo de agitación emocional",
     "imagen": "garabato.png",
     "medidas": "100x100",
-    "precio": "$140.000",
+    "precio": "$180",
     "nuevo": true,
     "disponible": true
   },
@@ -14,7 +14,7 @@
     "nombre": "Efimero",
     "imagen": "efimero.png",
     "medidas": "80x120",
-    "precio": "$140.000",
+    "precio": "-",
     "disponible": false
   },
   {
@@ -23,7 +23,7 @@
     "descripcion": "Simboliza movimiento constante",
     "imagen": "el giro.jpg",
     "medidas": "90x90",
-    "precio": "$140.000",
+    "precio": "$160",
     "nuevo": false,
     "disponible": true
   },
@@ -32,7 +32,7 @@
     "nombre": "Migracion",
     "imagen": "migracion.png",
     "medidas": "100x100",
-    "precio": "$145.000",
+    "precio": "$165",
     "nuevo": false,
     "disponible": true
   },
@@ -42,7 +42,7 @@
     "descripcion": "Reflexión sobre el comienzo",
     "imagen": "el origen.jpg",
     "medidas": "100x100",
-    "precio": "$140.000",
+    "precio": "$180",
     "nuevo": false,
     "disponible": true
   },
@@ -52,7 +52,6 @@
     "descripcion": "Intensidad del sol en paisaje desértico",
     "imagen": "calor.jpg",
     "medidas": "100x100",
-    "precio": "$120",
     "nuevo": false,
     "disponible": false
   },
@@ -61,7 +60,7 @@
     "nombre": "Ultima flor de verano",
     "imagen": "ultima-flor.png",
     "medidas": "100x100",
-    "precio": "$145.000",
+    "precio": "$165",
     "nuevo": false,
     "disponible": true
   },
@@ -71,7 +70,7 @@
     "descripcion": "Convergencia de caminos",
     "imagen": "interseccion.jpg",
     "medidas": "100x100",
-    "precio": "$130.000",
+    "precio": "$155",
     "nuevo": false,
     "disponible": true
   },
@@ -81,7 +80,6 @@
     "descripcion": "Energía de olas del mar",
     "imagen": "oleada.png",
     "medidas": "100x100",
-    "precio": "$120",
     "nuevo": false,
     "disponible": false
   },
@@ -91,7 +89,7 @@
     "descripcion": "Sensación de frescura al caer en agua",
     "imagen": "splash.jpg",
     "medidas": "100x100",
-    "precio": "$120.000",
+    "precio": "$145",
     "nuevo": false,
     "disponible": true
   },
@@ -110,7 +108,7 @@
     "descripcion": "Reflejo de agitación emocional",
     "imagen": "turbulencia.jpg",
     "medidas": "100x100",
-    "precio": "$120.000",
+    "precio": "$135",
     "nuevo": false,
     "disponible": true
   },
@@ -120,7 +118,7 @@
     "descripcion": "Reflejo de agitación emocional",
     "imagen": "redes.png",
     "medidas": "100x100",
-    "precio": "$110.000",
+    "precio": "$135",
     "nuevo": false,
     "disponible": true
   },
@@ -129,7 +127,7 @@
     "nombre": "Microredes",
     "descripcion": "Descripción no disponible",
     "imagen": "microredes.png",
-    "precio": "$110.000",
+    "precio": "$118",
     "medidas": "90x100",
     "nuevo": false,
     "disponible": true
@@ -139,7 +137,7 @@
     "nombre": "Mundos",
     "descripcion": "Descripción no disponible",
     "imagen": "mundos.png",
-    "precio": "$110.000",
+    "precio": "$140",
     "nuevo": false,
     "disponible": true
   },
@@ -158,7 +156,7 @@
     "descripcion": "Descripción no disponible",
     "imagen": "rutas.png",
     "medidas": "80x120",
-    "precio": "$80.000",
+    "precio": "$80",
     "liquidacion": true,
     "nuevo": false,
     "disponible": true
