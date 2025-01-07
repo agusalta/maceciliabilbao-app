@@ -222,6 +222,10 @@ button:hover {
   background-color: #0056b3;
 }
 
+.usd {
+  font-size: smaller;
+}
+
 /* Media queries */
 
 @media (max-width: 1485px) {
