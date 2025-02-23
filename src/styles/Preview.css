@@ -10,6 +10,7 @@
   min-height: 100vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
+  transform: scale(1.6);
 }
 
 .cuadros-preview .preview {
@@ -35,6 +36,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .cuadros-preview .preview .cerrar-modal {
   position: absolute;
   top: 1rem;
@@ -81,4 +83,10 @@
 .cuadros-preview .preview .cuadro {
   transform: none;
   transition: none;
+}
+
+@media (max-width: 1000px) {
+  .cuadros-preview {
+    transform: none;
+  }
 }

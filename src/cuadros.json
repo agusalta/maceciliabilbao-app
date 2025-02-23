@@ -57,10 +57,10 @@
   },
   {
     "id": 17,
-    "nombre": "Ultima flor de verano",
+    "nombre": "Última flor de verano",
     "imagen": "ultima-flor.png",
     "medidas": "100x100",
-    "precio": "$200",
+    "precio": "$220",
     "nuevo": false,
     "disponible": true
   },
@@ -118,7 +118,7 @@
     "descripcion": "Reflejo de agitación emocional",
     "imagen": "redes.png",
     "medidas": "100x100",
-    "precio": "$180",
+    "precio": "$200",
     "nuevo": false,
     "disponible": true
   },

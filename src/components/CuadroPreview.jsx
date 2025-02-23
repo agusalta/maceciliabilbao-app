@@ -19,8 +19,9 @@ function CuadroPreview({ cuadro, onClose }) {
         className="cuadro"
         src={require("../img/" + cuadro.imagen)}
         alt={cuadro.nombre}
+        title={cuadro.nombre}
       />
-      <h3>{cuadro.nombre}</h3>
+      <h3 title={cuadro.nombre}>{cuadro.nombre}</h3>
       <p>
         <strong>Medidas:</strong> {cuadro.medidas}
       </p>
