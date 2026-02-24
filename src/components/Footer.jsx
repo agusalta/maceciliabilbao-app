@@ -1,6 +1,5 @@
-import React from "react";
-import Instagram from "../img/instagram.png";
-import Whatsapp from "../img/whatsapp.png";
+import Instagram from '../img/instagram.png';
+import Whatsapp from '../img/whatsapp.png';
 
 function Footer() {
   return (

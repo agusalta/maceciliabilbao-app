@@ -1,18 +1,19 @@
-import React, { useState } from "react";
-import Cuadro from "./Cuadro";
-import Banner from "./Banner";
-import cuadrosData from "../cuadros.json";
-import CuadroPreview from "./CuadroPreview";
-import "../styles/Preview.css";
+import { useState } from 'react';
+import Cuadro from './Cuadro';
+import Banner from './Banner';
+import CuadroPreview from './CuadroPreview';
+import { getImageUrl } from '../utils/getImageUrl';
+import cuadrosData from '../cuadros.json';
+import '../styles/Preview.css';
 
 function Galeria() {
   const [showPreview, setShowPreview] = useState(false);
   const [selectedCuadro, setSelectedCuadro] = useState(null);
 
-  function handleCuadroClick(cuadro) {
+  const handleCuadroClick = (cuadro) => {
     setSelectedCuadro(cuadro);
     setShowPreview(true);
-  }
+  };
 
   const handleClosePreview = () => {
     setShowPreview(false);
@@ -24,13 +25,13 @@ function Galeria() {
       <Banner />
 
       <section className="galeria-container">
-        {cuadrosData && cuadrosData.length > 0 ? (
-          cuadrosData.map(cuadro => (
+        {cuadrosData?.length > 0 ? (
+          cuadrosData.map((cuadro) => (
             <div key={cuadro.id} className="cuadro-container">
               <Cuadro
                 nombre={cuadro.nombre}
                 descripcion={cuadro.descripcion}
-                imagen={require("../img/" + cuadro.imagen)}
+                imagen={getImageUrl(cuadro.imagen)}
                 data-name={cuadro.nombre}
                 onClick={() => handleCuadroClick(cuadro)}
               />
